@@ -1,0 +1,9 @@
+.title_main_hero {
+  margin-left: 2rem;
+  padding-left: 6rem;
+  width: 45%;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+

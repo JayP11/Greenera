@@ -1,0 +1,145 @@
+.footer_main1 {
+  background: var(--color-black);
+  color: var(--color-white);
+  padding: 2rem;
+}
+
+.footer_main {
+  margin: 0 auto;
+  max-width: 1140px;
+  display: flex;
+  gap: 1rem;
+}
+
+.links_sec1,
+.links_sec2,
+.links_sec3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.link_inner {
+  color: var(--color-gray);
+  line-height: 2.5;
+  text-decoration: none;
+}
+
+.footer_box1 {
+  /* width: 300px !important; */
+  margin-right: 1.5rem;
+}
+
+.footer_box1,
+.footer_box2,
+.footer_box3,
+.footer_box4 {
+  width: 100%;
+}
+
+.headings {
+  margin-bottom: 1rem;
+}
+
+.aboutuspara {
+  color: var(--color-gray);
+  word-spacing: 3px;
+  line-height: 1.6;
+}
+
+.rights_reserved {
+  color: var(--color-gray);
+}
+.last_sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_link_flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer_add_main {
+  font-size: 16px;
+  color: var(--color-txt-gray);
+  line-height: 1.5rem;
+  color: var(--color-gray);
+  /* text-align: left; */
+}
+
+.footer_icon_flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-gray);
+}
+
+.footer_link {
+  color: var(--color-txt-gray);
+  font-size: 16px;
+  line-height: 2;
+  color: var(--color-gray);
+}
+
+.link_footer_icon {
+  width: 22px;
+  height: 22px;
+  color: var(--color-white);
+}
+
+.Footer_main_social {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 30px;
+  color: var(--color-white);
+  flex-wrap: wrap;
+}
+
+.Footer_main_facebook_social,
+.Footer_main_twitter_social,
+.Footer_main_insta_social,
+.Footer_main_pinterest_social,
+.Footer_main_youtube_social,
+.Footer_main_whatsapp_social {
+  color: var(--color-white);
+  transition: all 0.5s ease-in-out;
+}
+
+.Footer_main_facebook_social:hover {
+  color: dodgerblue;
+  /* transform: rotate(360deg); */
+}
+.Footer_main_twitter_social:hover {
+  color: dodgerblue;
+  color: #1da1f2;
+  /* transform: rotate(360deg); */
+}
+.Footer_main_insta_social:hover {
+  color: deeppink;
+}
+.Footer_main_pinterest_social:hover {
+  color: #c8232c;
+}
+.Footer_main_youtube_social:hover {
+  color: red;
+  /* background-color: white; */
+}
+.Footer_main_whatsapp_social:hover {
+  color: rgb(159, 236, 52);
+}
+
+@media screen and (max-width: 767px) {
+  .footer_main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 578px) {
+  .last_sec {
+    gap: 1rem;
+    flex-direction: column;
+  }
+}

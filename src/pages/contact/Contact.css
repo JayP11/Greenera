@@ -1,0 +1,130 @@
+.ContactUsHome_main {
+  gap: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin: 0 auto;
+  max-width: 1140px;
+  /* height: 550px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading_sec_contact_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactustitle {
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.input_field {
+  padding: 0.6rem;
+  border: none;
+  font-size: 15px;
+  color: var(--color-white);
+  background: var(--color-lightgray);
+}
+.input_field_message {
+  padding: 1rem;
+  border: none;
+  font-size: 15px;
+  border: 2px solid;
+  /* color: var(--color-white); */
+  /* background: var(--color-lightgray); */
+}
+
+.form_sec_main_home {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.map_and_contact_main {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+  align-items: center;
+}
+
+.socialicons_contact_home_main {
+  font-size: 19px;
+  display: flex;
+  gap: 2rem;
+  color: var(--color-gray);
+}
+.socialicons_contact_home_inner:hover {
+  color: var(--color-green-dark);
+}
+
+.contactdetails_home_main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 2rem;
+}
+
+.contactdetails_home1 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.details_p_contact {
+  color: var(--color-gray);
+}
+
+.ContactUsCards_mapblock {
+  max-width: 100%;
+}
+
+.map_inner {
+  border-radius: 5px;
+  filter: grayscale(100%) invert(2%) contrast(83%);
+}
+
+.map_inner:hover {
+  filter: grayscale(0%);
+}
+
+.sendmessagebtn_home {
+  border: 2px solid var(--color-brown);
+}
+.sendmessagebtn_home:hover {
+  border: 2px solid var(--color-black);
+}
+
+.sendmessagebtn_home2 {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .ContactUsCards_mapblock {
+    padding: 0 4rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .form_sec_main_home {
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+  }
+
+  .sendmessagebtn_home {
+    display: none;
+  }
+
+  .sendmessagebtn_home2 {
+    display: block;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .input_field_message {
+    width: 300px;
+  }
+}
