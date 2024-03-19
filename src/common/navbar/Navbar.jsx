@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 // import images from "../../constants/images";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import images from "../../constants/images";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -11,14 +12,14 @@ const Navbar = () => {
     <div className="nav-main-nav-top">
       <div className="nav-main-nav">
         <nav className="Navbar_main">
-          {/* <Link to="/" style={{ height: "100px", width: "100px" }}>
+          <Link to="/" style={{ height: "90px", padding: "0.4rem 0" }}>
             <img
-              src={images.gc_logo}
+              src={images.logo}
               alt=""
               style={{ height: "100%", width: "100%" }}
             />
-          </Link> */}
-          LOGO
+          </Link>
+          {/* LOGO */}
           <div className="navbar_links_main">
             <div className="link_decor_nav">
               <Link

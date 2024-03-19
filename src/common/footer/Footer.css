@@ -1,7 +1,8 @@
 .footer_main1 {
-  background: var(--color-black);
-  color: var(--color-white);
-  padding: 2rem;
+  /* background: var(--color-black); */
+  background: var(--color-green-main);
+  /* color: var(--color-white); */
+  padding: 2rem 2rem 0 2rem;
 }
 
 .footer_main {
@@ -19,7 +20,7 @@
 }
 
 .link_inner {
-  color: var(--color-gray);
+  color: var(--color-green-nav);
   line-height: 2.5;
   text-decoration: none;
 }
@@ -41,18 +42,20 @@
 }
 
 .aboutuspara {
-  color: var(--color-gray);
+  color: var(--color-green-nav);
   word-spacing: 3px;
   line-height: 1.6;
 }
 
 .rights_reserved {
-  color: var(--color-gray);
+  color: var(--color-green-nav);
 }
 .last_sec {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--color-black);
+  padding: 2rem;
 }
 
 .footer_link_flex {
@@ -65,7 +68,7 @@
   font-size: 16px;
   color: var(--color-txt-gray);
   line-height: 1.5rem;
-  color: var(--color-gray);
+  color: var(--color-green-nav);
   /* text-align: left; */
 }
 
@@ -73,14 +76,14 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--color-gray);
+  color: var(--color-green-nav);
 }
 
 .footer_link {
   color: var(--color-txt-gray);
   font-size: 16px;
   line-height: 2;
-  color: var(--color-gray);
+  color: var(--color-green-nav);
 }
 
 .link_footer_icon {

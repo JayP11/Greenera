@@ -9,7 +9,7 @@ const HomeOurValues = () => {
     <div className="values_main_top">
       <div className="values_head_main">
         <div className="heading">
-          <h1>COUR VALUES</h1>
+          <h1>CORE VALUES</h1>
         </div>
         <div className="underline"></div>
       </div>

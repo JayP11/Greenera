@@ -9,7 +9,8 @@ import Radiance from "../assets/Radiance.png";
 import RainCare from "../assets/RainCare.png";
 import tarpaulin_img from "../assets/tarpaulin_img.webp";
 import prod2_img from "../assets/prod2_img.jpg";
-import hdpemanufacturertarpaulin from "../assets/hdpe-manufacturer-tarpaulin.webp";
+import hero_img from "../assets/hero_img.webp";
+import logo from "../assets/logo.png";
 
 export default {
   Excellence_icon,
@@ -22,5 +23,7 @@ export default {
   Radiance,
   RainCare,
   tarpaulin_img,
-  prod2_img,hdpemanufacturertarpaulin
+  prod2_img,
+  hero_img,
+  logo,
 };

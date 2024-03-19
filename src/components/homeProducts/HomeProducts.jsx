@@ -20,7 +20,7 @@ const HomeProducts = () => {
     <div style={{ background: "#e8f4d9" }}>
       <div className="values_head_main">
         <div className="heading">
-          <h1>COUR VALUES</h1>
+          <h1>OUR PRODUCTS</h1>
         </div>
         <div className="underline"></div>
       </div>

@@ -8,7 +8,7 @@ const HomeHero = () => {
     <div
       className=""
       style={{
-        backgroundImage: `url(${images.hdpemanufacturertarpaulin})`,
+        backgroundImage: `url(${images.hero_img})`,
         backgroundSize: "cover",
         height: "85vh",
       }}>
@@ -20,20 +20,26 @@ const HomeHero = () => {
           height: "100%",
           display: "flex",
           alignItems: "center",
+          justifyContent: "center",
         }}>
         <div className="title_main_hero">
-          <div>
-            <h1>WHY NOT GET YOUR MOT DONE WITH US?</h1>
+          <div style={{ maxWidth: "570px", textAlign: "center" }}>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
           </div>
           <div>
-            <h5
+            <p
               style={{
                 lineHeight: "1.5",
                 letterSpacing: "1px",
                 wordSpacing: "1px",
               }}>
-              Only £19 with a service or £24 without a service.
-            </h5>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
+              corporis necessitatibus ea, repudiandae voluptas nesciunt omnis
+              libero. Quasi dolorem eius architecto porro consequatur officiis
+              laudantium reprehenderit quis commodi. Incidunt consequuntur
+              necessitatibus voluptatibus autem ex eligendi sequi maiores amet
+              explicabo ut.{" "}
+            </p>
             <h5
               style={{
                 lineHeight: "1.5",
