@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomeHero.css";
+import images from "../../constants/images";
 // import images from "../../constants/images";
 
 const HomeHero = () => {
@@ -7,13 +8,13 @@ const HomeHero = () => {
     <div
       className=""
       style={{
-        // backgroundImage: `url(${images.book_now})`,
+        backgroundImage: `url(${images.hdpemanufacturertarpaulin})`,
         backgroundSize: "cover",
         height: "85vh",
       }}>
       <div
         style={{
-          backgroundColor: "rgba(0,0,0,.503)",
+          backgroundColor: "rgba(0,0,0,.703)",
           color: "var(--color-white)",
           width: "100%",
           height: "100%",

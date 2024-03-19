@@ -7,6 +7,9 @@ import Sustainability_icon from "../assets/Sustainability_icon.png";
 import GreenShield from "../assets/GreenShield.png";
 import Radiance from "../assets/Radiance.png";
 import RainCare from "../assets/RainCare.png";
+import tarpaulin_img from "../assets/tarpaulin_img.webp";
+import prod2_img from "../assets/prod2_img.jpg";
+import hdpemanufacturertarpaulin from "../assets/hdpe-manufacturer-tarpaulin.webp";
 
 export default {
   Excellence_icon,
@@ -18,4 +21,6 @@ export default {
   GreenShield,
   Radiance,
   RainCare,
+  tarpaulin_img,
+  prod2_img,hdpemanufacturertarpaulin
 };
