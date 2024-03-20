@@ -21,6 +21,7 @@
 
 .HomeOurBrands_words_main {
   display: flex;
+  color: green;
   justify-content: space-between;
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomeHero.css";
 import images from "../../constants/images";
+import { Link } from "react-router-dom";
 // import images from "../../constants/images";
 
 const HomeHero = () => {
@@ -11,6 +12,7 @@ const HomeHero = () => {
         backgroundImage: `url(${images.hero_img})`,
         backgroundSize: "cover",
         height: "85vh",
+        marginTop: "5rem",
       }}>
       <div
         style={{
@@ -49,9 +51,9 @@ const HomeHero = () => {
               Free nationwide collection and delivery.
             </h5>
           </div>
-          <div>
+          <Link to="/contact">
             <button className="btn">Contact now</button>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

@@ -14,6 +14,7 @@ const HomeProducts = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
+    autoplay: true,
     slidesToScroll: 1,
   };
   return (
@@ -79,7 +80,7 @@ const HomeProducts = () => {
               <div className="bottom">
                 <div className="left">
                   <div className="details">
-                    <h5>multilayer cross laminated tarpaulin </h5>
+                    <h4>Multilayer Cross Laminated Tarpaulin</h4>
                   </div>
                 </div>
               </div>
@@ -105,7 +106,7 @@ const HomeProducts = () => {
               <div className="bottom">
                 <div className="left">
                   <div className="details">
-                    <h4>Tarpaulinn</h4>
+                    <h4>Shade Net</h4>
                   </div>
                 </div>
               </div>
@@ -134,7 +135,7 @@ const HomeProducts = () => {
               <div className="bottom">
                 <div className="left">
                   <div className="details">
-                    <h4>Tarpaulin</h4>
+                    <h4>Pond Liner</h4>
                   </div>
                 </div>
               </div>
@@ -163,7 +164,7 @@ const HomeProducts = () => {
               <div className="bottom">
                 <div className="left">
                   <div className="details">
-                    <h4>Tarpaulin</h4>
+                    <h4>Grow Bag</h4>
                   </div>
                 </div>
               </div>
@@ -192,8 +193,93 @@ const HomeProducts = () => {
               <div className="bottom">
                 <div className="left">
                   <div className="details">
-                    <h4>Tarpaulin</h4>
+                    <h4>Lape Plastic</h4>
                   </div>
+                </div>
+              </div>
+            </div>
+            <div className="inside">
+              <TbListDetails className="icon" size={24} />
+              <div className="contents">
+                <p className="pro_card_text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="wrapper">
+            <div className="container">
+              <div className="top"></div>
+              <div className="bottom">
+                <div className="left">
+                  <div className="details">
+                    <h4>Vermi Compost Bed</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="inside">
+              <TbListDetails className="icon" size={24} />
+              <div className="contents">
+                <p className="pro_card_text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="wrapper">
+            <div className="container">
+              <div className="top"></div>
+              <div className="bottom">
+                <div className="left">
+                  <div className="details">
+                    <h4>Mulch Film</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="inside">
+              <TbListDetails className="icon" size={24} />
+              <div className="contents">
+                <p className="pro_card_text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="wrapper">
+            <div className="container">
+              <div className="top"></div>
+              <div className="bottom">
+                <div className="left">
+                  <div className="details">Bio-Medical Bags</div>
                 </div>
               </div>
             </div>

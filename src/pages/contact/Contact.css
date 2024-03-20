@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 5rem;
 }
 .heading_sec_contact_main {
   display: flex;
@@ -64,13 +65,12 @@
   flex-direction: column;
   gap: 1.5rem;
   align-items: center;
-  margin: 2rem;
 }
 
 .contactdetails_home1 {
   display: flex;
   gap: 1rem;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .details_p_contact {

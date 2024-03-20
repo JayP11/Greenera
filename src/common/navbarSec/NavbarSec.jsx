@@ -1,15 +1,38 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import "./Navbar.css";
+import "./NavbarSec.css";
 // import images from "../../constants/images";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import images from "../../constants/images";
 
-const Navbar = () => {
+const NavbarSec = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const location = useLocation();
+
+  const [navbarBgColor, setNavbarBgColor] = useState("none");
+  const [navbarBgShadow, setNavbarBgShadow] = useState("");
+  const HandleScroll = () => {
+    window.scrollTo(0, 1300);
+  };
+  useEffect(() => {
+    const handleScroll = () => {
+      const position = window.scrollY;
+      if (position > 600) {
+        setNavbarBgColor("block"); // Change background color when scrolled
+      } else {
+        setNavbarBgColor("none"); // Reset background color when back to top
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <div className="nav-main-nav-top">
+    <div
+      className="nav-main-nav-top test_position"
+      style={{ display: navbarBgColor }}>
       <div className="nav-main-nav">
         <nav className="Navbar_main">
           <Link to="/" style={{ height: "90px", padding: "0.4rem 0" }}>
@@ -82,7 +105,19 @@ const Navbar = () => {
                 <Link to="/AgricultureChains">Agriculture Chains</Link>
               </div>
             </div> */}
-
+            <div className="link_decor_nav">
+              <Link
+                to="/"
+                className="nav_link_h3"
+                style={{
+                  color:
+                    location.pathname === "/"
+                      ? "var(--color-white)"
+                      : "var(--color-green-nav)",
+                }}>
+                Media
+              </Link>
+            </div>
             <div className="link_decor_nav">
               <Link
                 to="/Contact"
@@ -171,4 +206,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarSec;

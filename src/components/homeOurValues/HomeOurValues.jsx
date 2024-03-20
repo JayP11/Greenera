@@ -13,7 +13,12 @@ const HomeOurValues = () => {
       </div>
       <div className="values_main">
         <div className="values_boxes">
-          <img src={images.Excellence_icon} alt="" style={{ height: "60px" }} />
+          <img
+            src={images.Excellence_icon}
+            className="values_img_inner"
+            alt=""
+            style={{ height: "60px" }}
+          />
           <div className="">
             <h3 className="heading_values">EXCELLENCE</h3>
           </div>
@@ -26,7 +31,12 @@ const HomeOurValues = () => {
           </div>
         </div>
         <div className="values_boxes">
-          <img src={images.Integrity_icon} alt="" style={{ height: "60px" }} />
+          <img
+            src={images.Integrity_icon}
+            className="values_img_inner"
+            alt=""
+            style={{ height: "60px" }}
+          />
           <div className="">
             <h3 className="heading_values">INTEGRITY</h3>
           </div>
@@ -39,7 +49,12 @@ const HomeOurValues = () => {
           </div>
         </div>
         <div className="values_boxes">
-          <img src={images.Innovation_icon} alt="" style={{ height: "60px" }} />
+          <img
+            src={images.Innovation_icon}
+            className="values_img_inner"
+            alt=""
+            style={{ height: "60px" }}
+          />
           <div className="">
             <h3 className="heading_values">INNOVATION</h3>
           </div>
@@ -52,7 +67,12 @@ const HomeOurValues = () => {
           </div>
         </div>
         <div className="values_boxes">
-          <img src={images.Customer_icon} alt="" style={{ height: "60px" }} />
+          <img
+            src={images.Customer_icon}
+            className="values_img_inner"
+            alt=""
+            style={{ height: "60px" }}
+          />
           <div className="">
             <h3 className="heading_values">CUSTOMER SATISFACTION</h3>
           </div>
@@ -65,7 +85,12 @@ const HomeOurValues = () => {
           </div>
         </div>
         <div className="values_boxes">
-          <img src={images.Team_icon} alt="" style={{ height: "60px" }} />
+          <img
+            src={images.Team_icon}
+            className="values_img_inner"
+            alt=""
+            style={{ height: "60px" }}
+          />
           <div className="">
             <h3 className="heading_values">TEAMWORK</h3>
           </div>
@@ -82,6 +107,7 @@ const HomeOurValues = () => {
             src={images.Sustainability_icon}
             alt=""
             style={{ height: "60px" }}
+            className="values_img_inner"
           />
           <div className="">
             <h3 className="heading_values">SUSTAINABILITY</h3>

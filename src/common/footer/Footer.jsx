@@ -24,9 +24,13 @@ const Footer = () => {
             </div>
             <div className="aboutuspara">
               <p>
-                Praesent massa felis, mattis et tempor non, condimentum vel
-                lectus. in turpis leo. vestibulum a sagittis iaculis convallis
-                sit amet purus. sed lacinia elit in dui imperdiet pottitor
+                Green Era Multitech LLP is a leading manufacturer specializing
+                in HDPE Tarpaulin, Pond Liners, and a diverse range of products,
+                including Multi-layer Cross Lam. Tarpaulin, LDPE Plastic, LDPE
+                Pond liners, Shade Nets, Mulch film, Vermi Compost Bed, Grow
+                Bag, and Bio-Medical Waste Bag. Our offerings comprise
+                UV-stabilized, high-quality Tarpaulin Rolls and various sizes to
+                meet diverse needs.
               </p>
             </div>
           </div>
@@ -57,18 +61,58 @@ const Footer = () => {
               <Link to="/" className="link_inner">
                 Home
               </Link>
-              <Link to="/" className="link_inner">
+              <Link to="/About" className="link_inner">
                 About us
               </Link>
               <Link to="/" className="link_inner">
                 Our Products
               </Link>
-              <Link to="/" className="link_inner">
+              <Link to="/Contact" className="link_inner">
                 Contact Us
               </Link>
             </div>
           </div>
           <div className="footer_link_flex">
+            <div className="headings">
+              <h3>FACTORY ADDRESS</h3>
+            </div>
+            <p className="footer_add_main">
+              Survey No. 730, Plot No. 1/2 & 2/1, Village Metoda (Rampar),
+              Bodi-Ghodi Road, Rajkot-Jamanagar Highway, Dist. Raikot-360110
+              (Gujarat) India.
+            </p>
+            <div className="footer_icon_flex">
+              <BsChatText
+                style={{
+                  color: "white",
+                  alignSelf: "center",
+                  height: "22px",
+                  width: "22px",
+                }}
+                className="con-info-icon"
+              />
+              <Link to="tel:+91 9978600450" className="footer_link">
+                +91 9978600450
+              </Link>
+            </div>
+            <div className="footer_icon_flex">
+              <AiOutlineMail className="link_footer_icon" />
+              {/* <Link
+              className="footer_add_main"
+              to={"mailto:" + `${getContactData ? getContactData.email : ""}`}>
+              Greenera@gmail.com{" "}
+            </Link> */}
+              <Link
+                to="mailto:greeneramultitech.Ilp@gmail.com"
+                className="footer_add_main">
+                Greeneramultitech.Ilp@gmail.com
+              </Link>
+            </div>
+          </div>
+          <div className="footer_link_flex">
+            <div className="headings">
+              <h3>REGI. OFFICE ADDRESS</h3>
+            </div>
             <p className="footer_add_main">
               "Vitrag" Pnchvati Main Road,Opp Ravi-Kiran Apartment, Near ICICI
               Bank, Rajkot-360110{" "}
@@ -84,7 +128,7 @@ const Footer = () => {
                 className="con-info-icon"
               />
               <Link to="tel:+91 9978600450" className="footer_link">
-                91 9978600450
+                +91 9978600450
               </Link>
             </div>
             <div className="footer_icon_flex">
@@ -95,9 +139,9 @@ const Footer = () => {
               Greenera@gmail.com{" "}
             </Link> */}
               <Link
-                to="mailto:Greenera@example.com"
+                to="mailto:greeneramultitech.Ilp@gmail.com"
                 className="footer_add_main">
-                Greenera@gmail.com
+                Greeneramultitech.Ilp@gmail.com
               </Link>
             </div>
           </div>

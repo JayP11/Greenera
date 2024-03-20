@@ -1,5 +1,9 @@
 .nav-main-nav-top {
   background: var(--color-green-main);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 .Navbar_main {
   display: flex;

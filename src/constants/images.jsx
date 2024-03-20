@@ -11,6 +11,14 @@ import tarpaulin_img from "../assets/tarpaulin_img.webp";
 import prod2_img from "../assets/prod2_img.jpg";
 import hero_img from "../assets/hero_img.webp";
 import logo from "../assets/logo.png";
+import whyUs from "../assets/whyUs.avif";
+import quality from "../assets/quality.png";
+import solution from "../assets/solution.png";
+import customer_centric from "../assets/customer_centric.png";
+import about_img from "../assets/about_img3.png";
+import about_certificate from "../assets/abot_certificate.png";
+import mission_icon from "../assets/mission_icon.png";
+import vision_icon from "../assets/vision_icon.png";
 
 export default {
   Excellence_icon,
@@ -26,4 +34,12 @@ export default {
   prod2_img,
   hero_img,
   logo,
+  whyUs,
+  quality,
+  solution,
+  customer_centric,
+  about_img,
+  about_certificate,
+  mission_icon,
+  vision_icon,
 };

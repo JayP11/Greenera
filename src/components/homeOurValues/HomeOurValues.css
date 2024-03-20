@@ -43,3 +43,16 @@
   word-spacing: 3px;
   line-height: 1.6;
 }
+
+.values_boxes {
+  position: relative;
+}
+
+.values_boxes .values_img_inner {
+  height: 60px;
+  transition: filter 0.3s ease;
+}
+
+.values_boxes:hover .values_img_inner:hover {
+  filter: grayscale(100%);
+}
