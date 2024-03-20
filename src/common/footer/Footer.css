@@ -48,13 +48,14 @@
 }
 
 .rights_reserved {
-  color: var(--color-green-nav);
+  /* color: var(--color-green-nav); */
+  color: var(--color-white);
 }
 .last_sec {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-black);
+  background-color: var(--color-green-nav);
   padding: 2rem;
 }
 

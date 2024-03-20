@@ -1,7 +1,5 @@
 import React from "react";
 import "./HomeOurValues.css";
-import { BsBatteryCharging, BsFuelPumpFill } from "react-icons/bs";
-import { AiOutlineHeart } from "react-icons/ai";
 import images from "../../constants/images";
 
 const HomeOurValues = () => {
