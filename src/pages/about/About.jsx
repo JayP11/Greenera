@@ -74,11 +74,11 @@ const About = () => {
                     </div>
                     <div className="link_decor_nav">
                       <Link
-                        to="/ProductPage"
+                        to="/Products"
                         className="nav_link_h3 nav_link_h3_about"
                         style={{
                           color:
-                            location.pathname === "/ProductPage"
+                            location.pathname === "/Products"
                               ? "var(--color-white)"
                               : "var(--color-black)",
                         }}>
@@ -87,10 +87,10 @@ const About = () => {
                     </div>
                     {/* <div className="dropdown" style={{ display: "flex" }}>
               <Link
-                to="/ProductPage"
+                to="/Products"
                 style={{
                   color:
-                    location.pathname === "/ProductPage"
+                    location.pathname === "/Products"
                       ? "var(--color-blue)"
                       : "var(--color-white)",
                   display: "flex",
@@ -141,7 +141,9 @@ const About = () => {
               </div>
               <>
                 {toggleMenu && (
-                  <div className="mobile-nav-main">
+                  <div
+                    className="mobile-nav-main"
+                    style={{ background: "var(--color-green-main)" }}>
                     <ul className="mobile-nav-links">
                       <li>
                         <Link
@@ -158,7 +160,7 @@ const About = () => {
                         </Link>
                       </div>
                       <div className="dropdown">
-                        <Link to="/ProductPage" className="mobile-nav-link">
+                        <Link to="/Products" className="mobile-nav-link">
                           Products
                           <i className="fa fa-caret-down"></i>
                         </Link>
@@ -204,6 +206,7 @@ const About = () => {
                   display: "flex",
                   flexDirection: "column",
                   gap: "1rem",
+                  paddingLeft: "2rem",
                 }}>
                 It's Time To <br /> KNOW US
                 <div className="underline" style={{ margin: "0px" }}></div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomeOurBrands.css";
 import images from "../../constants/images";
+import { Link } from "react-router-dom";
 
 const HomeOurBrands = () => {
   return (
@@ -24,9 +25,9 @@ const HomeOurBrands = () => {
             working with these worldwide famous brands. Responsibility in the
             market and innovation in products has always been our strong points.
           </div>
-          <div>
+          <Link to="/about">
             <button className="btn btn_bg">Read more</button>
-          </div>
+          </Link>
         </div>
         <div className="HomeOurBrands_part2_main">
           <div className="HomeOurBrands_logo_main">

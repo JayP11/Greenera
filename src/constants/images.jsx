@@ -19,6 +19,15 @@ import about_img from "../assets/about_img3.png";
 import about_certificate from "../assets/abot_certificate.png";
 import mission_icon from "../assets/mission_icon.png";
 import vision_icon from "../assets/vision_icon.png";
+import Tarpaulin from "../assets/Tarpaulin.png";
+import MultilayerCrossLaminatedTarpaulin from "../assets/MultilayerCrossLaminatedTarpaulin.webp";
+import Shade_net from "../assets/Shade_net.webp";
+import Pond_liner from "../assets/Pond_liner.webp";
+import Grow_bag from "../assets/Grow_bag.png";
+import Ldpe_plastic from "../assets/Ldpe_plastic.webp";
+import vermi_compost_bed from "../assets/vermi_compost_bed.jpeg";
+import Mulch_film from "../assets/Mulch_film.webp";
+import Bio_Degradable_bags from "../assets/Bio_Degradable_bags.png";
 
 export default {
   Excellence_icon,
@@ -42,4 +51,13 @@ export default {
   about_certificate,
   mission_icon,
   vision_icon,
+  Tarpaulin,
+  MultilayerCrossLaminatedTarpaulin,
+  Shade_net,
+  Pond_liner,
+  Grow_bag,
+  Ldpe_plastic,
+  vermi_compost_bed,
+  Mulch_film,
+  Bio_Degradable_bags,
 };

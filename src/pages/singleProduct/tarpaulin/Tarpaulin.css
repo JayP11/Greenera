@@ -1,0 +1,12 @@
+.Tarpaulin_main {
+  gap: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin: 0 auto;
+  max-width: 1140px;
+  /* height: 550px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5rem;
+}

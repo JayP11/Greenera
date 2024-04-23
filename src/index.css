@@ -80,3 +80,8 @@ a {
   margin-bottom: 2rem;
   margin-top: 0.5rem;
 }
+
+.slick-initialized .slick-slide {
+  display: flex !important;
+  justify-content: center !important;
+}

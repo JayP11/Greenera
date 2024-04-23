@@ -49,11 +49,11 @@ const Navbar = () => {
             </div>
             <div className="link_decor_nav">
               <Link
-                to="/ProductPage"
+                to="/Products"
                 className="nav_link_h3"
                 style={{
                   color:
-                    location.pathname === "/ProductPage"
+                    location.pathname === "/Products"
                       ? "var(--color-white)"
                       : "var(--color-green-nav)",
                 }}>
@@ -62,10 +62,10 @@ const Navbar = () => {
             </div>
             {/* <div className="dropdown" style={{ display: "flex" }}>
               <Link
-                to="/ProductPage"
+                to="/Products"
                 style={{
                   color:
-                    location.pathname === "/ProductPage"
+                    location.pathname === "/Products"
                       ? "var(--color-blue)"
                       : "var(--color-white)",
                   display: "flex",
@@ -129,7 +129,7 @@ const Navbar = () => {
                 </Link>
               </div>
               <div className="dropdown">
-                <Link to="/ProductPage" className="mobile-nav-link">
+                <Link to="/Products" className="mobile-nav-link">
                   Products
                   <i className="fa fa-caret-down"></i>
                 </Link>

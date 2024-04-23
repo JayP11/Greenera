@@ -1,38 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import "./NavbarSec.css";
+import "./NavbarThree.css";
 // import images from "../../constants/images";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import images from "../../constants/images";
 
-const NavbarSec = () => {
+const NavbarThree = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const location = useLocation();
-
-  const [navbarBgColor, setNavbarBgColor] = useState("none");
-  const [navbarBgShadow, setNavbarBgShadow] = useState("");
-  const HandleScroll = () => {
-    window.scrollTo(0, 1300);
-  };
-  useEffect(() => {
-    const handleScroll = () => {
-      const position = window.scrollY;
-      if (position > 600) {
-        setNavbarBgColor("block"); // Change background color when scrolled
-      } else {
-        setNavbarBgColor("none"); // Reset background color when back to top
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
   return (
-    <div
-      className="nav-main-nav-top test_position"
-      style={{ display: navbarBgColor }}>
+    <div className="nav_main_nav_top_edit">
+      {/* <div className="nav-main-nav-top"> */}
       <div className="nav-main-nav">
         <nav className="Navbar_main">
           <Link to="/" style={{ height: "90px", padding: "0.4rem 0" }}>
@@ -105,19 +83,7 @@ const NavbarSec = () => {
                 <Link to="/AgricultureChains">Agriculture Chains</Link>
               </div>
             </div> */}
-            {/* <div className="link_decor_nav">
-              <Link
-                to="/"
-                className="nav_link_h3"
-                style={{
-                  color:
-                    location.pathname === "/"
-                      ? "var(--color-white)"
-                      : "var(--color-green-nav)",
-                }}>
-                Media
-              </Link>
-            </div> */}
+
             <div className="link_decor_nav">
               <Link
                 to="/Contact"
@@ -147,8 +113,7 @@ const NavbarSec = () => {
       </div>
       <>
         {toggleMenu && (
-           <div className="mobile-nav-main-edit">
-           {/* <div className="mobile_nav_main_edit"> */}
+          <div className="mobile-nav-main">
             <ul className="mobile-nav-links">
               <li>
                 <Link
@@ -200,11 +165,11 @@ const NavbarSec = () => {
                 </Link>
               </li>
             </ul>
-         </div>
+          </div>
         )}
       </>
     </div>
   );
 };
 
-export default NavbarSec;
+export default NavbarThree;

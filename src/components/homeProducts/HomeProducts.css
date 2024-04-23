@@ -198,8 +198,10 @@
 }
 
 .pro_card_text {
-  padding: 1rem;
+  font-size: 18px;
+  margin-bottom: 20px;
+  /* padding: 1rem;
   color: #fff;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.2; */
 }

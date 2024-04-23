@@ -75,7 +75,7 @@
 
 .nav-btn-icon-part {
   /* background-color: yellow; */
-  height: 100px;
+  height: 90px;
   /* width: 75px; */
   display: flex;
   align-items: center;
@@ -89,7 +89,7 @@
 
 .nav-btn {
   font-size: 30px;
-  color: red;
+  color: darkgreen;
   padding: 0;
   margin: 0;
   background: none;

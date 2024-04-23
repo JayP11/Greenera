@@ -1,8 +1,10 @@
 .HomeOurBrands_main {
   margin: 0 auto;
   max-width: 1140px;
-  padding: 2rem 0;
+  padding: 2rem;
+  align-items: center;
   display: flex;
+  gap: 2rem;
   justify-content: space-between;
 }
 
@@ -44,4 +46,16 @@
 
 .HomeOurBrands_logo_inner:hover {
   filter: grayscale(0%);
+}
+
+@media screen and (max-width: 768px) {
+  .HomeOurBrands_main {
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
+
+  .HomeOurBrands_logo_main {
+    height: 100px;
+    width: 140px;
+  }
 }

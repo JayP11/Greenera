@@ -1,6 +1,11 @@
-.test_position{
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 999;
+.test_position {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+}
+
+.mobile_nav_main_edit {
+  padding: 2rem 1rem 1rem 1rem;
+  background: whitesmoke;
 }
