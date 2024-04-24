@@ -171,3 +171,36 @@
   max-width: 290px;
 }
 /*  */
+
+@media screen and (max-width: 1000px) {
+  .our_miss_con {
+    flex-wrap: wrap;
+  }
+  .our_miss_text {
+    max-width: 80%;
+  }
+  .our_miss_part,
+  .our_miss_part2 {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 840px) {
+  .our_miss_text {
+    max-width: 60%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .our_miss_part,
+  .our_miss_part2 {
+    height: 100%;
+    border-radius: 0px;
+  }
+  .our_miss_text{
+    max-width: 100%;
+    text-align: center;
+  }
+  .about_img_con_txt {
+  font-size: 45px;
+  }
+}

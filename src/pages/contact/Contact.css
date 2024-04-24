@@ -39,14 +39,27 @@
 .form_sec_main_home {
   display: flex;
   gap: 2rem;
-  padding: 2rem;
+  /* padding: 2rem; */
   justify-content: center;
+}
+
+.form_sec_main_home_inner {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.form_sec_main_home_inner_part{
+   display: flex;
+  gap: 2rem;
 }
 
 .map_and_contact_main {
   display: flex;
   justify-content: space-around;
   margin: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -101,16 +114,16 @@
   display: none;
 }
 
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
   .ContactUsCards_mapblock {
     padding: 0 4rem;
   }
-}
+} */
 @media screen and (max-width: 900px) {
   .form_sec_main_home {
     flex-direction: column;
-    gap: 0px;
     align-items: center;
+    gap: 0px;
   }
 
   .sendmessagebtn_home {
@@ -119,12 +132,35 @@
 
   .sendmessagebtn_home2 {
     display: block;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background: var(--color-green-dark);
     margin-top: 2rem;
   }
 }
-
+@media screen and (max-width: 615px) {
+  .contactdetails_home_main {
+    align-items: flex-start;
+  }
+  .contactdetails_home1 {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 500px) {
   .input_field_message {
     width: 300px;
   }
+  .map_inner {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+.form_sec_main_home_inner_part{
+  flex-direction: column;
+}
+.form_sec_main_home_inner{
+  width: 90%;
+}
 }

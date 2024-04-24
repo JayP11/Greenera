@@ -30,13 +30,15 @@ const Contact = () => {
             <div className="underline"></div>
           </div>
           <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p style={{ textAlign: "center" }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
           </div>
         </div>
         <div className="form_sec_main_home">
-          <div
-            style={{ display: "flex", gap: "2rem", flexDirection: "column" }}>
-            <div style={{ display: "flex", gap: "2rem" }}>
+          <div className="form_sec_main_home_inner">
+            {" "}
+            <div className="form_sec_main_home_inner_part">
               <input
                 type="text"
                 name="name"
@@ -50,7 +52,7 @@ const Contact = () => {
                 className="input_field"
               />
             </div>
-            <div style={{ display: "flex", gap: "2rem" }}>
+            <div className="form_sec_main_home_inner_part">
               <input
                 type="text"
                 name="phone"
@@ -66,7 +68,7 @@ const Contact = () => {
             </div>
             <div>
               <button
-                className="btn btn_bg"
+                className="btn btn_bg sendmessagebtn_home"
                 style={{ padding: "0.7rem", width: "100%" }}>
                 Send Message
               </button>
@@ -109,7 +111,9 @@ const Contact = () => {
             </div>
             <div className="contactdetails_home1">
               <h3>Office Address : </h3>
-              <Link to="https://maps.app.goo.gl/91V1ZtqiYg7KDBPE7"  target="_blank">
+              <Link
+                to="https://maps.app.goo.gl/91V1ZtqiYg7KDBPE7"
+                target="_blank">
                 <p className="details_p_contact" style={{ maxWidth: "380px" }}>
                   "Vitrag" Pnchvati Main Road,Opp Ravi-Kiran Apartment, Near
                   ICICI Bank, Rajkot-360110

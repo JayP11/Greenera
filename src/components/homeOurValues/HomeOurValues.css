@@ -56,3 +56,9 @@
 .values_boxes:hover .values_img_inner:hover {
   filter: grayscale(100%);
 }
+
+@media screen and (max-width:400px) {
+  .values_head_main{
+    font-size: 14px;
+  }
+}

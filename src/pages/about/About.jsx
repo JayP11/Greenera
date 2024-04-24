@@ -23,7 +23,6 @@ const About = () => {
         <div
           style={{
             backgroundImage: `url(${images.whyUs})`,
-            // backgroundImage: `url(${images.about_img})`,
             backgroundPosition: "center",
             backdropFilter: "blur(w2px)",
             WebkitBackdropFilter: "revert-layer",
@@ -44,7 +43,6 @@ const About = () => {
                       style={{ height: "100%", width: "100%" }}
                     />
                   </Link>
-                  {/* LOGO */}
                   <div className="navbar_links_main">
                     <div className="link_decor_nav">
                       <Link
@@ -85,28 +83,6 @@ const About = () => {
                         Products
                       </Link>
                     </div>
-                    {/* <div className="dropdown" style={{ display: "flex" }}>
-              <Link
-                to="/Products"
-                style={{
-                  color:
-                    location.pathname === "/Products"
-                      ? "var(--color-blue)"
-                      : "var(--color-white)",
-                  display: "flex",
-                  alignItems: "center",
-                }}>
-                Products
-              </Link>
-              <div className="dropdown-content">
-                <Link to="/RollerChains">Roller Chains</Link>
-                <Link to="/BushChains">Bush Chains</Link>
-                <Link to="/ExtendedPitchChains">Extended Pitch Chains</Link>
-                <Link to="/LeafChains">Leaf Chains</Link>
-                <Link to="/AttachmentChains">Attachment Chains</Link>
-                <Link to="/AgricultureChains">Agriculture Chains</Link>
-              </div>
-            </div> */}
 
                     <div className="link_decor_nav">
                       <Link
@@ -164,33 +140,10 @@ const About = () => {
                           Products
                           <i className="fa fa-caret-down"></i>
                         </Link>
-                        {/* <div className="dropdown-content">
-                  <Link to="/RollerChains" style={{ color: "red" }}>
-                    Roller Chains
-                  </Link>
-                  <Link to="/BushChains" style={{ color: "red" }}>
-                    Bush Chains
-                  </Link>
-                  <Link to="/ExtendedPitchChains" style={{ color: "red" }}>
-                    Extended Pitch Chains
-                  </Link>
-                  <Link to="/LeafChains" style={{ color: "red" }}>
-                    Leaf Chains
-                  </Link>
-                  <Link to="/AttachmentChains" style={{ color: "red" }}>
-                    Attachment Chains
-                  </Link>
-                  <Link to="/AgricultureChains" style={{ color: "red" }}>
-                    Agriculture Chains
-                  </Link>
-                </div> */}
                       </div>
 
                       <li>
-                        <Link
-                          to={"/Contact"}
-                          // onClick={() => setToggleMenu(false)}
-                          className="mobile-nav-link">
+                        <Link to={"/Contact"} className="mobile-nav-link">
                           Contact
                         </Link>
                       </li>
@@ -288,7 +241,7 @@ const About = () => {
         </div>
       </div>
       {/*  */}
-      <div className="about_certificate_main">
+      {/* <div className="about_certificate_main">
         <div className="values_head_main">
           <div className="heading">
             <h1>CERTIFICATES</h1>
@@ -302,7 +255,7 @@ const About = () => {
             className="about_certificate_img"
           />
         </div>
-      </div>
+      </div> */}
       {/*  */}
     </>
   );

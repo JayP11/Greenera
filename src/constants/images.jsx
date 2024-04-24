@@ -1,3 +1,5 @@
+import logo from "../assets/logo.png";
+import logo_green from "../assets/logo_green.png";
 import Excellence_icon from "../assets/Excellence_icon.png";
 import Integrity_icon from "../assets/Integrity_icon.png";
 import Innovation_icon from "../assets/Innovation_icon.png";
@@ -10,7 +12,6 @@ import RainCare from "../assets/RainCare.png";
 import tarpaulin_img from "../assets/tarpaulin_img.webp";
 import prod2_img from "../assets/prod2_img.jpg";
 import hero_img from "../assets/hero_img.webp";
-import logo from "../assets/logo.png";
 import whyUs from "../assets/whyUs.avif";
 import quality from "../assets/quality.png";
 import solution from "../assets/solution.png";
@@ -30,6 +31,8 @@ import Mulch_film from "../assets/Mulch_film.webp";
 import Bio_Degradable_bags from "../assets/Bio_Degradable_bags.png";
 
 export default {
+  logo,
+  logo_green,
   Excellence_icon,
   Integrity_icon,
   Innovation_icon,
@@ -42,7 +45,6 @@ export default {
   tarpaulin_img,
   prod2_img,
   hero_img,
-  logo,
   whyUs,
   quality,
   solution,
