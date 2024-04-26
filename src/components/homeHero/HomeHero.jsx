@@ -7,12 +7,9 @@ import { Link } from "react-router-dom";
 const HomeHero = () => {
   return (
     <div
-      className=""
+      className="HomeHero_main"
       style={{
         backgroundImage: `url(${images.hero_img})`,
-        backgroundSize: "cover",
-        height: "85vh",
-        marginTop: "5rem",
       }}>
       <div
         style={{
@@ -26,7 +23,7 @@ const HomeHero = () => {
         }}>
         <div className="title_main_hero">
           <div style={{ maxWidth: "570px", textAlign: "center" }}>
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+            <h1>WELCOME TO GREENERA</h1>
           </div>
           <div>
             <p
@@ -35,21 +32,28 @@ const HomeHero = () => {
                 letterSpacing: "1px",
                 wordSpacing: "1px",
               }}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
-              corporis necessitatibus ea, repudiandae voluptas nesciunt omnis
-              libero. Quasi dolorem eius architecto porro consequatur officiis
-              laudantium reprehenderit quis commodi. Incidunt consequuntur
-              necessitatibus voluptatibus autem ex eligendi sequi maiores amet
-              explicabo ut.{" "}
+              Green Era Multitech LLP is a leading manufacturer specializing in
+              HDPE Tarpaulin, Pond Liners, and a diverse range of products,
+              including Multi-layer Cross Lam. Tarpaulin, LDPE Plastic, LDPE
+              Pond liners, Shade Nets, Mulch film, Vermi Compost Bed, Grow Bag,
+              and Bio-Medical Waste Bag. Our offerings comprise UV-stabilized,
+              high-quality Tarpaulin Rolls and various sizes to meet diverse
+              needs.
             </p>
-            <h5
+            <br />
+            <p
               style={{
                 lineHeight: "1.5",
                 letterSpacing: "1px",
                 wordSpacing: "1px",
               }}>
-              Free nationwide collection and delivery.
-            </h5>
+              With a robust stock holding accommodating individual parcels to
+              pallets and container loads, we are dedicated to delivering
+              competitive prices and upholding the service excellence expected
+              from a family-owned business. At Green Era, we prioritize customer
+              satisfaction, constantly expanding our product range and enhancing
+              existing offerings to provide the best available solutions.
+            </p>
           </div>
           <Link to="/contact">
             <button className="btn">Contact now</button>

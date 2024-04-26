@@ -1,3 +1,8 @@
+.HomeHero_main {
+  background-size: cover;
+  height: 85vh;
+  margin-top: 5rem;
+}
 .title_main_hero {
   /* margin-right: 2rem;
   padding-right: 4rem; */
@@ -15,8 +20,13 @@
     padding: 2rem;
   }
 }
+@media screen and (max-width: 450px) {
+  .HomeHero_main {
+    height: 100%;
+  }
+}
 @media screen and (max-width: 400px) {
   .title_main_hero {
-    padding: 1rem;
+    padding: 2rem;
   }
 }
