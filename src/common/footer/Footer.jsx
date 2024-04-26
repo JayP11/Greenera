@@ -64,7 +64,7 @@ const Footer = () => {
               <Link to="/About" className="link_inner">
                 About us
               </Link>
-              <Link to="/" className="link_inner">
+              <Link to="/Products" className="link_inner">
                 Our Products
               </Link>
               <Link to="/Contact" className="link_inner">

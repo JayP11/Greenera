@@ -232,9 +232,9 @@ const About = () => {
             </div>
 
             <p className="our_miss_text">
-              To be the global benchmark in manufacturing, delivering
-              world-class products to delighted customers. Our vision is fueled
-              bycontinuous improvement, driven by the integrity, teamwork, and
+              To be the global benchmark in manufacturing, delivering world -
+              class products to delighted customers. Our vision is fueled by
+              continuous improvement, driven by the integrity, teamwork, and
               creativity of our people.
             </p>
           </div>

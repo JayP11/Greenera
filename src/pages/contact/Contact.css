@@ -104,10 +104,10 @@
 }
 
 .sendmessagebtn_home {
-  border: 2px solid var(--color-brown);
+   border: 2px solid var(--color-green-dark);
 }
 .sendmessagebtn_home:hover {
-  border: 2px solid var(--color-black);
+    border: 2px solid var(--color-green-dark);
 }
 
 .sendmessagebtn_home2 {
