@@ -37,7 +37,7 @@ const HomeProducts = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    autoplay: false,
+    autoplay: true,
     slidesToScroll: 1,
     responsive: [
       {
